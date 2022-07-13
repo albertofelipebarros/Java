@@ -1,7 +1,4 @@
 package br.com.futurodev.semana1;
-
-import java.math.BigDecimal;
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class QuartoExercicio {
