@@ -8,11 +8,11 @@ public class ifapp {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite um número: ");
         int numero = scanner.nextInt();
-        if(!(numero>=10)){
-        System.out.println("Número Menor que 10");
+        if(numero>=10){
+        System.out.println("Número Maior ou igual a 10");
         }
         else
-            System.out.println("Número Maior ou igual a 10");
+            System.out.println("Número Menor que 10");
 
     }
 }
