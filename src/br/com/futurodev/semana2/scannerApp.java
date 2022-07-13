@@ -7,8 +7,7 @@ public class scannerApp {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Escreva seu nome: " );
         String nome = scanner.nextLine();
-        System.out.print("Digite um valor: " );
         double valor = scanner.nextDouble();
-        System.out.println("Seu nome é " + nome + " e sua altura é " + valor);
+        System.out.println(" Olá mundo! Sou" + nome);
     }
 }
