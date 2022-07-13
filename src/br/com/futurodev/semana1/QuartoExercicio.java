@@ -7,7 +7,7 @@ public class QuartoExercicio {
         System.out.print("Digite 1 numero de 0 a 255 para transformá-lo em algum caracter: " );
         int numero = scanner.nextInt();
         char transforma = (char) numero;
-        System.out.println("A letra convertida é " + transforma);
+        System.out.println("o caractere convertido é " + transforma);
     }
 }
 
