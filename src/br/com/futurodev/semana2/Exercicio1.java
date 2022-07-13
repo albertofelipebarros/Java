@@ -12,6 +12,6 @@ public class Exercicio1 {
         System.out.print("Informe o valor do salário mínimo: " );
         Float minimo = scanner.nextFloat();
         Float salarios = valor/minimo;
-        System.out.println("Você ganha o equivalente a " + salarios + " salários mínimos" );
+        System.out.println("Você ganha o equivalente a " + (salarios) + " salários mínimos" );
     }
 }
