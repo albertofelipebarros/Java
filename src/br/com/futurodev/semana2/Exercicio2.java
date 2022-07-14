@@ -28,6 +28,7 @@ public class Exercicio2 {
             return;
         }
 
+
         boolean positivo = false;
         if(resultado>=0){
             positivo = true;
