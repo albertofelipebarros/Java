@@ -1,4 +1,13 @@
 package br.com.futurodev.semana2;
+
+/*
+* Autor: Alberto Felipe Friderichs Barros
+* Data de criação: 13/07/2022
+* Data de modificação: 13/07/2022
+* Objeto: Explicar operações lógicas
+* */
+
+
 public class Boolean {
     public static void main(String[] args) {
         boolean resultado = true && true; // true
@@ -38,6 +47,10 @@ public class Boolean {
 //   and                     x
         if (10 >= x && x > -10){ //intervalo entre -9 e 10
             System.out.println("intervalo entre -9 e 10");
+        }
+        x = -9;
+        if ((10 <= x || x <= -10) && x%2!=0){ //ou maior ou igual a 10, ou menor ou igual a -10
+            System.out.println("O número é: ou maior ou igual a 10, ou menor ou igual a -10, e é impar");
         }
     }
 }
