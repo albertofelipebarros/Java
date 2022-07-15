@@ -13,11 +13,11 @@ public class Exercicio3 {
             if(numero1==numero2){
                 System.out.println("Numeros iguais");
             }
-            if(numero1>numero2){
+            else if(numero1>numero2){
                 System.out.println("Maior: " + numero1);
                 System.out.print("Menor: " + numero2);
             }
-            if (numero1<numero2) {
+            else {
                 System.out.println("Maior: " + numero2);
                 System.out.println("Menor: " + numero1);
             }

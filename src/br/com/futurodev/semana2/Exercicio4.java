@@ -1,21 +1,18 @@
 package br.com.futurodev.semana2;
 import java.util.Scanner;
 public class Exercicio4 {
-
-
         public static void main(String[] args) {
 
             Scanner scanner = new Scanner(System.in);
-            System.out.print("Digite o valor de x: ");
+            System.out.print("Digite o valor de X: ");
             int x = scanner.nextInt();
-            System.out.print("Digite o valor de y: ");
+            System.out.print("Digite o valor de Y: ");
             int y = scanner.nextInt();
-                System.out.println("O valor de x é " + x);
-                System.out.println("O valor de y é " + y);
-            int z = x;
-            int f = y;
-            System.out.println("Invertendo os valores: ");
-            System.out.println("Agora X vale = " + f);
-            System.out.println("Agora Y vale = " + z);
+            System.out.println("Invertendo os valores... ");
+            int aux = y;
+            y = x;
+            x = aux;
+            System.out.println("Agora X vale = " + x);
+            System.out.println("Agora Y vale = " + y);
         }
 }
