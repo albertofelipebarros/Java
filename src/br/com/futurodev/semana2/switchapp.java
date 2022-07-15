@@ -2,7 +2,6 @@ package br.com.futurodev.semana2;
 
 import javax.sound.midi.Soundbank;
 import java.util.Scanner;
-
 public class switchapp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
