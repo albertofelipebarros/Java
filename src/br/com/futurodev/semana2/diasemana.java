@@ -10,25 +10,25 @@ public class diasemana {
         switch (dia) {
 
             case "Segunda":
-                System.out.println("Faltam 5 dias");
+                System.out.println("Faltam 5 dias para o fim de semana");
                 break;
             case "Terça":
-                System.out.println("Faltam 4 dias");
+                System.out.println("Faltam 4 dias para o fim de semana");
                 break;
             case "Quarta":
-                System.out.println("Faltam 3 dias");
+                System.out.println("Faltam 3 dias para o fim de semana");
                 break;
             case "Quinta":
-                System.out.println("Faltam 2 dias");
+                System.out.println("Faltam 2 dias para o fim de semana");
                 break;
             case "Sexta":
-                System.out.println("Falta 1 dia");
+                System.out.println("Falta 1 dia para o fim de semana");
                 break;
             case "Sabado":
-                System.out.println("Faltam 0 dias");
+                System.out.println("Voce esta no fim de semana");
                 break;
             case "Domingo":
-                System.out.println("Faltam 0 dias");
+                System.out.println("Voce esta no fim de semana");
                 break;
             default :
                 System.out.println("Dia não encontrado");
