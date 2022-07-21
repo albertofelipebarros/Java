@@ -25,15 +25,14 @@ public class Exercicio2 {
         }
         boolean positivo = resultado>=0;
         boolean par = resultado % 2 == 0;
-        if(positivo && par){
+        if(positivo && par)
             System.out.println("O número "+resultado+" é par e positivo");
-        } else if(par){
+        else if(par)
             System.out.println("O número "+resultado+" é par e negativo");
-        } else if (positivo) {
+        else if (positivo)
             System.out.println("O número "+resultado+" é impar e positivo");
-        } else {
+        else
             System.out.println("O número "+resultado+" é impar e negativo");
-        }
     }
 }
 
