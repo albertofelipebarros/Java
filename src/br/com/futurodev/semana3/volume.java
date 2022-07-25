@@ -4,46 +4,31 @@ import java.util.List;
 import java.util.Scanner;
 
 public class volume {
-    public static void main(String[] args) {
 
-        List<Double> dimensoes = new ArrayList<>();
+    public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
-        System.out.print("Informe a quantidade de valores: ");
-        int quantidade = entrada.nextInt();
-        System.out.println("");
+        List<Double> dimensoes = new ArrayList<>();
+        int quantidade;
 
-        double result = 0;
+        System.out.print("Informe a quantidade de dimensões: ");
+        quantidade = entrada.nextInt();
+
+        System.out.println("Informe as dimensões: ");
         int i = 0;
         while (i < quantidade) {
-            // Peço a operação a partir do segundo loop
-            String operacao = "";
-            if (i > 0) {
-                System.out.print("Informe a operação desejada: ");
-                operacao = entrada.next();
-
-                System.out.print("Informe um valor: ");
-                switch (operacao) {
-                    case "+":
-                        result += entrada.nextDouble();
-                        break;
-                    case "-":
-                        result -= entrada.nextDouble();
-                        break;
-                    case "*":
-                        result *= entrada.nextDouble();
-                        break;
-                    case "/":
-                        result /= entrada.nextDouble();
-                        break;
-                    default:
-                        result = entrada.nextDouble();
-                        break;
-                }
-
-                i++;
-            }
+            dimensoes.add(entrada.nextDouble());
+            i = i + 1;
         }
-            System.out.println("\nO resultado é de: " + result);
+
+        i = 0;
+        double volume = 1;
+        while (i < quantidade) {
+            volume = (volume * dimensoes.get(i));
+            i++;
+        }
+
+        System.out.println("\nO resulta é de: " + volume);
     }
+
 }

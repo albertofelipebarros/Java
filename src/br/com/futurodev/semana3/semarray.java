@@ -4,9 +4,7 @@ import java.util.Scanner;
 public class semarray {
     public static void main(String[] args) {
 
-        double largura;
-        double comprimento;
-        double altura;
+        double largura, comprimento, altura;
 
         Scanner entrada = new Scanner(System.in);
 
@@ -21,8 +19,8 @@ public class semarray {
 
         System.out.println(
                 "\nLxCxA: " +
-                        largura + "x" +
-                        comprimento + "x" +
+                        largura + " x " +
+                        comprimento + " x " +
                         altura
         );
 
