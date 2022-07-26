@@ -20,10 +20,10 @@ public class exercicio3 {
             i++;
         }
         double media = 0;
-        for (double nota : notas) { // Percorre o array
-            media += nota; // Realiza a soma de "media" e "nota"
+        for (double nota : notas) {
+            media = media+nota;
         }
-        media /= quantidade; // Divide a "media" pela "quantidade"
+        media = media/quantidade;
         System.out.print("Sua média é: " + media);
 
     }
