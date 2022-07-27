@@ -7,13 +7,11 @@ public class exercicio2 {
     public static void main(String[] args) {
         double[] notas = new double[3];
         Scanner entrada = new Scanner(System.in);
-
-        System.out.println("Infome 3 notas: ");
-        notas[0] = entrada.nextDouble();
-        notas[1] = entrada.nextDouble();
-        notas[2] = entrada.nextDouble();
-
-        double MEDIA = (notas[0] + notas[1] + notas[2])/3;
+        for (int i = 0; i < notas.length; i++) {
+            System.out.println("Insira suas notas: ");
+            notas[i] = entrada.nextDouble();
+        }
+        double MEDIA = (notas[0] + notas[1] + notas[2])/ notas.length;
         System.out.println("A média é: " + Math.round(MEDIA));
     }
 }
