@@ -14,6 +14,6 @@ public class Exercicio5 {
         float nota1 = scanner.nextFloat();
         float media = (nota1+nota2)/2;
         String resultado = (media>=6) ? "Aprovado" : "Reprovado";
-        System.out.println("A média de " + nome + " foi " + media + " e a situação é " + resultado);
+        System.out.println("A mÃ©dia de " + nome + " foi " + media + " e a situaÃ§Ã£oo Ã© " + resultado);
     }
 }

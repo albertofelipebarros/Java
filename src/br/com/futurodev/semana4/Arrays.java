@@ -21,7 +21,7 @@ public class Arrays {
             i++;
         }
         for (int j =numero3.length -1; j>=0; j--) {
-            System.out.println(numero3[j]);
+            System.out.println(numero3[1]);
         }
     }
 }
